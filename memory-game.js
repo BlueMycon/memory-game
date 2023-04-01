@@ -126,4 +126,4 @@ function checkGameOver() {
   }
 }
 
-document.getElementById("best-score").innerText = `Best Score: ${localStorage.getItem("bestScore")}`;
+document.getElementById("best-score").innerText = `Best Score: ${localStorage.getItem("bestScore") || "N/A"}`;
